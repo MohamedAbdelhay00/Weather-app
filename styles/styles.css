@@ -124,6 +124,8 @@ body{
 .today .c-body{
     border-radius: 0px 0px 0px 10px;
     padding: 4%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .nnext-day .c-head{
