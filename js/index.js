@@ -67,20 +67,20 @@ function displayData() {
                 </div>
             </div>
             <p id="status">${weatherData.condition.text}</p>
-            <ul class="weather-info d-flex ">
-                <li class=" d-flex ">
+            <div class="weather-info d-flex justify-content-center">
+                <div class=" d-flex ">
                     <img id="rain-img" class="h-75" src="./imgs/icon-umberella@2x.png" alt="">
                     <p id="rain" class="ms-2">${weatherData.cloud} %</p>
-                </li>
-                <li class=" d-flex">
+                </div>
+                <div class=" d-flex">
                     <img id="wind-img" class="w-25 h-75" src="./imgs/icon-wind@2x.png" alt="">
                     <p id="wind" class="ms-2">${weatherData.wind_kph} km/h</p>
-                    </v>
-                <li class=" d-flex justify-content-center  align-items-center ">
+                    </div>
+                <div class=" d-flex justify-content-center  align-items-center ">
                     <img id="direction-img" class="w-25" src="./imgs/icon-compass@2x.png" alt="">
                     <p id="direction" class="ms-2">${weatherData.wind_dir}</p>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
