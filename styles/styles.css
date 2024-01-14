@@ -349,6 +349,14 @@ body{
         width: 100%;
         height: 2vh !important;
     }
+
+    .de{
+        font-size: 30px !important;
+    }
+
+    .im{
+        width: 10% !important;
+    }
     
   }
 

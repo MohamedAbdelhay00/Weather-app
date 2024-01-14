@@ -58,10 +58,14 @@ function displayData() {
             <p id="location">${locationData.name}</p>
             <div class="degree d-flex ">
                 <div class="row">
-                    <div class="col-md-7 col-sm-8 d-flex">
-                        <h1 class="d-flex" id="degree">${weatherData.temp_c}°C</h1>
-                        <img class="d-flex w-50 ms-5" src="${weatherData.condition.icon}" alt="">
-                    </div>
+                <div class="row">
+                <div class="col-md-10">
+                    <h1 id="degree">${weatherData.temp_c}°C</h1>
+                </div>
+                <div class="col-md-2">
+                    <img src="${weatherData.condition.icon}" alt="">
+                </div>
+            </div>
                 </div>
             </div>
             <p id="status">${weatherData.condition.text}</p>
