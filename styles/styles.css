@@ -296,6 +296,10 @@ body{
         border-radius: 0px 0px 10px 10px;
     }
 
+    .nnext-day{
+        margin-bottom: 15%;
+    }
+
     .cards{
         translate: 0% -15%;
     }
