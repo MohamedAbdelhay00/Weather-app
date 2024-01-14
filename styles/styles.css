@@ -264,7 +264,7 @@ body{
     }
 
     .show-data{
-        padding-bottom: 10%;
+        padding-top: -100%;
     }
     
     #myForm .s-field{
