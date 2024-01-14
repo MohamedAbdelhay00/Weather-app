@@ -58,11 +58,9 @@ function displayData() {
             <p id="location">${locationData.name}</p>
             <div class="degree d-flex ">
                 <div class="row">
-                    <div class="col-md-7 col-sm-2">
-                        <h1 id="degree">${weatherData.temp_c}°C</h1>
-                    </div>
-                    <div class="col-md-5 col-sm-2">
-                        <img class=" ms-5" src="${weatherData.condition.icon}" alt="">
+                    <div class="col-md-7 col-sm-8 d-flex">
+                        <h1 d-flex id="degree">${weatherData.temp_c}°C</h1>
+                        <img class="d-flex w-100 h-100 ms-5" src="${weatherData.condition.icon}" alt="">
                     </div>
                 </div>
             </div>
