@@ -256,15 +256,15 @@ body{
     #myForm input{
         margin-top: 15%;
     }
-
-    .today .c-body{
-        height: 100%;
-    }
     
     #myForm .f-btn{
         margin-top: 14%;
         right: 7.5%;
         padding: 3% 10%;
+    }
+
+    .show-data{
+        padding-bottom: 10%;
     }
     
     #myForm .s-field{
@@ -294,10 +294,6 @@ body{
     
     .nnext-day .c-body{
         border-radius: 0px 0px 10px 10px;
-    }
-
-    .nnext-day{
-        margin-bottom: 15%;
     }
 
     .cards{
