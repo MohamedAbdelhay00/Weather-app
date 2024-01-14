@@ -60,7 +60,7 @@ function displayData() {
                 <div class="row">
                     <div class="col-md-7 col-sm-8 d-flex">
                         <h1 class="d-flex" id="degree">${weatherData.temp_c}°C</h1>
-                        <img class="d-flex w-100 h-100 ms-5" src="${weatherData.condition.icon}" alt="">
+                        <img class="d-flex w-50 ms-5" src="${weatherData.condition.icon}" alt="">
                     </div>
                 </div>
             </div>
