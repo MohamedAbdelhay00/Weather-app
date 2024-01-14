@@ -262,10 +262,6 @@ body{
         right: 7.5%;
         padding: 3% 10%;
     }
-
-    .show-data{
-        padding-top: -100%;
-    }
     
     #myForm .s-field{
         width: 95%;
@@ -278,6 +274,7 @@ body{
 
     .today .card .c-body{
         padding: 0% 4% 20%;
+        height: 100%;
     }
 
     .today .c-head{
@@ -294,10 +291,11 @@ body{
     
     .nnext-day .c-body{
         border-radius: 0px 0px 10px 10px;
+        margin-bottom: 10%;
     }
 
     .cards{
-        translate: 0% -15%;
+        translate: 0% -25%;
     }
 
     #subscribeForm{
