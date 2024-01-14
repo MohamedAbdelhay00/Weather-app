@@ -1,0 +1,486 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #262936;
+}
+
+.logo-text h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo-text p{
+    color: #BFC1C8;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: #1E202B;
+    padding: 0 10%;
+}
+
+.nav-item{
+    padding: 0 1px;
+    font-size: 14px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+ .active{
+    color: #009AD8 !important;
+    border: #009AD8 solid 2px;
+    border-radius: 20px;
+    padding: 4px 30px !important;
+}
+
+.nav-item-o{
+    border: transparent solid 2px;
+    border-radius: 20px;
+    padding: 4px 30px !important;
+    transition: all 1s;
+}
+
+.nav-item-o:hover{
+    color: #009AD8 !important;
+    border: #009AD8 solid 2px;
+    border-radius: 20px;
+    padding: 4px 30px !important;
+}
+
+.main{
+    background-image: url("../imgs/banner.png");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+#myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm input{
+    background-color: #1E202B;
+    border: none;
+    margin-top: 5%;
+    color: #fff;
+}
+
+#myForm .f-btn{
+    background-color: #009AD8;
+    border: none;
+    margin-top: 5%;
+    right: 13.75%;
+    padding: 1% 3%;
+    border-radius: 40px;
+}
+
+#myForm .s-field{
+    width: 75%;
+    padding: 1.5% 1%;
+    border-radius: 40px;
+}
+
+#myForm button{
+    border: none;
+}
+
+.show-data{
+    background-color: #1E202B;
+}
+
+.cards{
+    translate: 0% -45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    border: none;
+    margin: 0;
+    background-color: #1E202B;
+    width: 100%;
+}
+
+.c-head{
+    background-color: #2D303D;
+    margin: 0%;
+    color: #BDC0C6;
+    font-size: 14px;
+}
+
+.today .c-head{
+    border-radius: 10px 0px 0px 0px;
+}
+
+.today .c-body{
+    border-radius: 0px 0px 0px 10px;
+    padding: 4%;
+}
+
+.nnext-day .c-head{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.nnext-day .c-body{
+    border-radius: 0px 0px 10px 0px;
+}
+
+#date{
+    right: 3%;
+}
+
+
+
+.c-body{
+    background-color: #323544;
+    margin: 0%;
+    height: 300px;
+}
+
+#location{
+    color: #BDC0C6;
+    font-size: 27px;
+}
+
+#degree{
+    color: #FFFFFF;
+    font-size: 67px;
+   
+}
+
+#status, #nextDay-status, #nnextDay-status{
+    color: #009AD8;
+}
+
+.weather-info{
+    color: #BFC1C8;
+}
+
+.next-day .c-head{
+    background-color: #222531;
+}
+
+.next-day .c-body{
+    background-color: #262936;
+}
+
+#h-degree, #nh-degree{
+    color: #fff;
+}
+
+#l-degree, #nl-degree{
+    color: #BFC1C8;
+}
+
+.nnext-day .c-head{
+    background-color: #2D303D;
+}
+
+.nnext-day .c-body{
+    background-color: #323544;
+}
+
+.footer{
+    background-color: #262936;
+}
+
+#subscribeForm input{
+    background-color: #1E202B;
+    border: none;
+    margin-top: 5%;
+    color: #fff;
+}
+
+#subscribeForm .f-btn{
+    background-color: #009AD8;
+    border: none;
+    margin-top: 5%;
+    top: 2%;
+    right: 3%;
+    padding: 2.25% 3%;
+    border-radius: 40px;
+}
+
+#subscribeForm .s-field{
+    width: 100%;
+    padding: 3%;
+    border-radius: 40px;
+}
+
+#subscribeForm button{
+    border: none;
+}
+
+.icons ul li {
+    color: #009AD8;
+}
+
+.icons ul li {
+    padding: 15px;
+    margin: 2px;
+    width: 45px;
+    height: 45px;
+    background-color: #1E202B;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.icons ul li:hover{
+    color: #fff;
+    background-color: #009AD8;
+}
+
+.footer p{
+    color: #AEB1B9;
+    padding: 4% 5% 5%;
+}
+
+@media only screen and (min-width: 301px) and (max-width: 768px) {   
+    #myForm input{
+        margin-top: 15%;
+    }
+    
+    #myForm .f-btn{
+        margin-top: 14%;
+        right: 7.5%;
+        padding: 3% 10%;
+    }
+    
+    #myForm .s-field{
+        width: 95%;
+        padding: 5% 3%;
+    }
+
+    .show-data{
+        height: 920px;
+    }
+
+    .today .card .c-body{
+        padding: 0% 4% 20%;
+    }
+
+    .today .c-head{
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .today .c-body{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .nnext-day .c-head{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .nnext-day .c-body{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .cards{
+        translate: 0% -15%;
+    }
+
+    #subscribeForm{
+        width: 90%;
+        margin: 5% 0;
+    }
+    
+    #subscribeForm input{
+        margin-top: 5%;
+    }
+    
+    #subscribeForm .f-btn{
+        background-color: #009AD8;
+        border: none;
+        margin-top: 5%;
+        top: 2%;
+        right: 14%;
+        padding: 2% 3%;
+    }
+    
+    #subscribeForm .s-field{
+        width: 90%;
+        padding: 3%;
+    }
+    
+    #subscribeForm button{
+        border: none;
+    }
+    
+    .icons ul li {
+        color: #009AD8;
+    }
+    
+    .icons ul li {
+        padding: 15px;
+        margin: 2px;
+        width: 45px;
+        height: 45px;
+        background-color: #1E202B;
+        border-radius: 50%;
+    }
+    
+    .footer p{
+        color: #AEB1B9;
+        padding: 4% 5% 5%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    #myForm input{
+        margin-top: 15%;
+    }
+    
+    #myForm .f-btn{
+        margin-top: 14%;
+        right: 5%;
+        padding: 4% 10%;
+    }
+    
+    #myForm .s-field{
+        width: 95%;
+        padding: 5% 3%;
+    }
+
+    .show-data{
+        height: 1000px;
+    }
+
+    .today .card{
+        margin-top: 15%;
+    }
+
+    .today .card .c-body{
+        padding: 0% 4% 20%;
+    }
+
+    .today .c-head{
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .today .c-body{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .nnext-day .c-head{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .nnext-day .c-body{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .cards{
+        translate: 0% -15%;
+    }
+
+    #subscribeForm{
+        width: 90%;
+        margin: 5% 0;
+    }
+    
+    #subscribeForm input{
+        margin-top: 5%;
+    }
+    
+    #subscribeForm .f-btn{
+        background-color: #009AD8;
+        border: none;
+        margin-top: 5%;
+        top: 2%;
+        right: 13%;
+        padding: 2% 3%;
+    }
+    
+    #subscribeForm .s-field{
+        width: 90%;
+        padding: 3%;
+    }
+    
+    #subscribeForm button{
+        border: none;
+    }
+    
+    .icons ul li {
+        color: #009AD8;
+    }
+    
+    .icons ul li {
+        padding: 15px;
+        margin: 2px;
+        width: 45px;
+        height: 45px;
+        background-color: #1E202B;
+        border-radius: 50%;
+    }
+    
+    .footer p{
+        color: #AEB1B9;
+        padding: 4% 5% 5%;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .today .card .c-body{
+        padding: 0% 4% 30%;
+    }
+
+    .cards{
+        translate: 0% -40%;
+    }
+
+    #subscribeForm{
+        width: 90%;
+        margin: 5% 0;
+    }
+    
+    #subscribeForm input{
+        margin-top: 5%;
+    }
+    
+    #subscribeForm .f-btn{
+        background-color: #009AD8;
+        border: none;
+        margin-top: 5%;
+        top: 2%;
+        right: 12%;
+        padding: 2.5% 3%;
+    }
+    
+    #subscribeForm .s-field{
+        width: 90%;
+        padding: 3%;
+    }
+    
+    #subscribeForm button{
+        border: none;
+    }
+    
+    .icons ul li {
+        color: #009AD8;
+    }
+    
+    .icons ul li {
+        padding: 15px;
+        margin: 2px;
+        width: 45px;
+        height: 45px;
+        background-color: #1E202B;
+        border-radius: 50%;
+    }
+    
+    .footer p{
+        color: #AEB1B9;
+        padding: 4% 5% 5%;
+    }
+  }
