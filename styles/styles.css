@@ -256,6 +256,10 @@ body{
     #myForm input{
         margin-top: 15%;
     }
+
+    .today .c-body{
+        height: 100%;
+    }
     
     #myForm .f-btn{
         margin-top: 14%;
