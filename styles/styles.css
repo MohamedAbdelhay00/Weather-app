@@ -236,6 +236,12 @@ body{
     transition: all 1s;
 }
 
+.icons ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icons ul li:hover{
     color: #fff;
     background-color: #009AD8;
