@@ -332,6 +332,15 @@ body{
         color: #AEB1B9;
         padding: 4% 5% 5%;
     }
+
+    #degree{
+        font-size: 30px;
+    }
+    
+    .condDiv{
+        width: 100%;
+        height: 2vh !important;
+    }
     
   }
 

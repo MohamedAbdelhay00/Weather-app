@@ -58,26 +58,26 @@ function displayData() {
             <p id="location">${locationData.name}</p>
             <div class="degree d-flex ">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-sm-2">
                         <h1 id="degree">${weatherData.temp_c}°C</h1>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-sm-2">
                         <img class=" ms-5" src="${weatherData.condition.icon}" alt="">
                     </div>
                 </div>
             </div>
             <p id="status">${weatherData.condition.text}</p>
             <div class="weather-info d-flex justify-content-center">
-                <div class=" d-flex ">
-                    <img id="rain-img" class="h-75" src="./imgs/icon-umberella@2x.png" alt="">
+                <div class="condDiv d-flex ">
+                    <img id="rain-img" src="./imgs/icon-umberella@2x.png" alt="">
                     <p id="rain" class="ms-2">${weatherData.cloud} %</p>
                 </div>
-                <div class=" d-flex">
-                    <img id="wind-img" class="w-25 h-75" src="./imgs/icon-wind@2x.png" alt="">
+                <div class="condDiv px-2 d-flex">
+                    <img id="wind-img" src="./imgs/icon-wind@2x.png" alt="">
                     <p id="wind" class="ms-2">${weatherData.wind_kph} km/h</p>
                     </div>
-                <div class=" d-flex justify-content-center  align-items-center ">
-                    <img id="direction-img" class="w-25" src="./imgs/icon-compass@2x.png" alt="">
+                <div class=" condDiv d-flex">
+                    <img id="direction-img" src="./imgs/icon-compass@2x.png" alt="">
                     <p id="direction" class="ms-2">${weatherData.wind_dir}</p>
                 </div>
             </div>
