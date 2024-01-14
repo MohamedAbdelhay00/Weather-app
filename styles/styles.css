@@ -333,9 +333,9 @@ body{
         padding: 4% 5% 5%;
     }
 
-    /* #degree{
-        font-size: 30px;
-    } */
+    #degree{
+        font-size: 67px;
+    }
     
     .condDiv{
         width: 100%;
